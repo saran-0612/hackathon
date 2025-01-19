@@ -1,0 +1,163 @@
+@font-face {
+    font-family: brand_title;
+    src: url(../asset/font/Redressed-Regular.ttf);
+}
+@font-face {
+    font-family: eup;
+    src: url(../asset/font/Mushroom.);
+}
+@font-face {
+    font-family: tex;
+    src: url(../asset/font/Roboto-Regular.ttf);
+}
+
+body{
+    background-color: #121212;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.brand_name{
+    color: #F7E7CE;
+    font-family: brand_title;
+    font-size: 2.25em;
+    margin: 0;
+    position: relative;
+    left: 5%;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: #333333;
+}
+a{
+    text-decoration: none;  
+    color: #F7E7CE;  
+
+}
+a:visited{
+    text-decoration: none;  
+    color: #F7E7CE;  
+}
+ul {
+    list-style-type: none;  
+    padding: 0;            
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+li {
+    display: inline-block; 
+    margin-right: 20px;     
+    position: relative;
+    top:-25px;
+    font-family: eup;
+    font-size: 1.25em;
+}
+.menu{
+    height: 4px;
+    width: 25px;
+    margin-top: 3px;
+    border-radius: 50px;
+    background-color: #F7E7CE;
+    position: relative;
+    top: -48px;
+    left: 95%;
+}
+.cont{
+    display: flex;            
+    justify-content: center;    
+    gap: 5%; 
+    margin-top: 10%;
+}
+.dandelions_mp{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+.dandelions_mp img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+  }
+.dendelions_title_txt{
+    color: #F7E7CE;
+    width: 180px;
+    font-size: 1.4em;
+    font-family: tex;
+}
+
+.I_wanna_be_yours_mp{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+.I_wanna_be_yours_mp img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+  }
+.iwanna_title_txt{
+    color: #F7E7CE;
+    width: 180px;
+    font-size: 1.4em;
+    font-family: tex;
+}
+
+.end_of_beginning_mp{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+.end_of_beginning_mp img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+  }
+  .endof_title_txt{
+    width: 180px;
+    color: #F7E7CE;
+    font-size: 1.4em;
+    font-family: tex;
+}
+
+.die_with_a_smile_mp{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+.die_with_a_smile_mp img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+  }
+  .diewith_title_txt{
+    width: 180px;
+    color: #F7E7CE;
+    font-size: 1.4em;
+    font-family: tex;
+}
+
+.moral_of_the_story_mp{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+.moral_of_the_story_mp img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+  }
+  .moral_title_txt{
+    width: 180px;
+    color: #F7E7CE;
+    font-size: 1.4em;
+    font-family: tex;
+}
+.auth_txt{
+    color: #F7E7CE;
+    margin: 0;
+    position: relative;
+    top: -15px;
+}

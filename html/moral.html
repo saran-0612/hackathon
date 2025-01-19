@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+    <head>
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Music player
+        </title>
+        <link rel="stylesheet" href="../css/song.css">
+
+
+    </head>
+    <body>
+        <p class="brand_name">
+            soulsync
+        </p>
+        <ul>
+            <li><a href="../main.html" target="_self" class="home">HOME</a></li>
+            <li><a href="" target="_self" class="album">ALBUM</a></li>
+            <li><a href="" target="_self" class="blog">BLOG</a></li>
+        </ul>
+        <div class="menu_con">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+        <div>
+            <div class="m_p">
+                <img src="../asset/image/moral_mp.jpeg" alt="img">
+            </div>
+            <p class="title">MORAL OF THE STORY</p>
+            <p class="auth">~ASHE</p>
+        </div>
+        <div class="music-player">
+            <audio id="audio" src="../asset/audio/moral.mp3"></audio>
+            
+            <div class="controls">
+                <button id="playPauseBtn">play</button>
+                <input type="range" id="progressBar" value="0" step="1">
+                <span id="currentTime">00:00</span> / <span id="duration">00:00</span>
+            </div>
+        </div>
+    
+        <script src="../script/main.js"></script>
+
+    </body>
+</html>
